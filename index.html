@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Front Page !!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    /*CSS RESET*/
+
+    body {
+        font-family: 'Merriweather', serif;
+        /* font-family: 'Ubuntu', sans-serif;*/
+        margin: 0;
+        padding: 0;
+        /*   https://source.unsplash.com/random/1080x900px*/
+
+
+        font-size: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .section {
+        /*  border: 2px solid yellowgreen;*/
+        margin: 45px 100px;
+        padding: 0%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    header::before {
+
+        /*...........FOR RANDOM IMG'S : https://source.unsplash.com/random/300×300............*/
+
+        /*...........FOR NIGHT : https://source.unsplash.com/random/?city,night...............*/
+
+        /*...........FOR FRUIT : https://source.unsplash.com/random/900×700/?fruit............*/
+
+        /*.....................YOU CAN CHANGE SIZE ACCORDINGLY.................................*/
+        /*......................FROM ANY USER: https://source.unsplash.com/user/wsanter........*/
+
+        background: url('https://source.unsplash.com/user/wsanter') no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.48;
+    }
+
+    /* section::before {
+        content: "This is content";
+    }*/
+
+    .navbar {
+        margin: auto;
+        border-radius: 22px;
+        /*  background-color: rgb(216, 211, 205);*/
+    }
+
+    .navigation {
+        display: flex;
+
+    }
+
+    li {
+        list-style: none;
+        padding: 18px 31px;
+        font-size: 18px;
+
+
+    }
+
+    li a {
+        /* border: 3px solid green;*/
+        font-family: 'Oswald', sans-serif;
+        padding: 25px 5px;
+        color: rgb(181, 178, 178);
+        border-radius: 15px;
+        font-size: 21px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        text-decoration: underline rgb(0, 231, 252);
+        color: rgb(248, 233, 233);
+    }
+
+    h1:hover {
+        text-decoration: none ;
+        color: rgb(207, 198, 198);
+    }
+
+    li a:hover :active {
+        text-decoration: none !important;
+
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Emogi {
+        position: relative;
+        top: 12px;
+        margin: 2px;
+        width: 40px;
+        height: 40px;
+    }
+
+
+    h1 {
+        font-size: 3.1rem;
+
+
+
+    }
+
+    strong {
+        font-size: 23px;
+    }
+
+    hr {
+        width: 60%;
+        margin: 0px auto;
+    }
+
+
+    .firsthr {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .down {
+        position: relative;
+        top: 168px;
+        left: 1315px;
+
+        width: 12%;
+        padding: 10px 9px;
+
+    }
+
+    .down:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(0, 235, 55);
+        border: 2px solid rgb(243, 236, 236);
+        border-radius: 19px;
+        opacity: 0.6;
+        font-weight: 900;
+
+    }
+
+    .name {
+        font-size: 16px;
+    }
+    b{
+        font-weight:900;
+            }
+</style>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <ul class="navigation">
+
+                <li class="list">
+                    <a class="active" href="#">Home</a>
+                </li>
+
+                <li class="list">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="list">
+                    <a href="#">Services</a>
+                </li>
+                <li class="list">
+                    <a href="#">Contact Us</a>
+                </li>
+                <li class="list">
+                    <a href="#">Follow Us</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="section">
+        <h1>Welcome Satyam</h1>
+        <hr class="fisrthr">
+        <br>
+        <p><em> <strong>H</strong>ey !! <img class="Emogi" src="grinning-face-with-big-eyes_1f603.png"
+                    alt="Gimming Face"> <strong> Satyam</strong> </em>start your new day with a new motivation :
+
+            <i>“ It's a new dawn, It's a new day, It's a new life for me. And I'm feeling good. ”</i>
+            ―<b> Nina Simone</b>
+        </p>
+    </section>
+    <hr>
+
+    <footer>
+        <div class="down">
+            Made By- <strong class="name">the_logical77</strong>
+        </div>
+    </footer>
+
+</body>
+
+</html>
